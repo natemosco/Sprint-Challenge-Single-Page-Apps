@@ -10,7 +10,7 @@ const StyledListItem = styled.section`
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
-  background: "https://wallpapercave.com/wp/wp1822724.jpg" no-repeat 100%/cover;
+  background: url("https://wallpapercave.com/wp/wp1822724.jpg") no-repeat 100%/cover fixed;
   .list-item{
     width: 45%;
     height:450px;
@@ -18,6 +18,10 @@ const StyledListItem = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items:center;
+    h2{
+      color: #15d029;
+      background-color: #337081e3;
+    }
   }
 `;
 
