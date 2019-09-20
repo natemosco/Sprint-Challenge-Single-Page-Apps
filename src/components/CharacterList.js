@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import styled from "styled-components";
+import Header from "./Header"
 
 const StyledListItem = styled.section`
   min-height : 80vh;
   height:auto;
-  width: 100vw;
+  width: 100%;
   display:flex;
   flex-wrap:wrap;
   justify-content: space-between;
@@ -50,5 +51,5 @@ export default function CharacterList() {
     <section className="character-list">
       <StyledListItem>{CharacterListing}</StyledListItem>
     </section>
-  );
+  )
 }
