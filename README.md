@@ -25,7 +25,11 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [ X]  Explain benefit(s) using `client-side routing`?
+The benefits of client side routing include the following:
+    - After initial load, navigation speed is faster between pages.
+    - No flash of white or full refresh of page during navigation.
+    - The user experience is more cohesive.
 
 > Answer:
 
@@ -33,10 +37,10 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
-- [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [X ]  Create a forked copy of this project.
+- [ X]  Add TL as collaborator on GitHub.
+- [X ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [ X]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
 - [ ]  Implement the project on this branch, committing changes regularly.
 - [ ]  Push commits: `git push origin <firstName-lastName>`.
 - [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
