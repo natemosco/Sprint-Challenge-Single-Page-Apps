@@ -41,7 +41,7 @@ export default function CharacterList() {
 
   const CharacterListing = characters.map(character => 
     <div classname="list-item">
-      {<img src="{character.image}" alt="`Image of ${character.name} from the tv show Rick and Morty`"/>}
+      <img src={character.image} alt="Image of ${character.name} from the tv show Rick and Morty"/>
       <h2>{character.name}</h2>
     </div>
   )
