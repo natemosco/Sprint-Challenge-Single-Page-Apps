@@ -18,10 +18,11 @@ const StyledListItem = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    h2{
-      color: #15d029;
-      background-color: #337081e3;
-    }
+  }
+  h2{
+    color: #15d029;
+    background-color: #337081e3;
+    text-align:center;
   }
 `;
 
