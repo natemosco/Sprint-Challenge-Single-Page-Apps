@@ -25,7 +25,11 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [ X]  Explain benefit(s) using `client-side routing`?
+The benefits of client side routing include the following:
+    - After initial load, navigation speed is faster between pages.
+    - No flash of white or full refresh of page during navigation.
+    - The user experience is more cohesive.
 
 > Answer:
 
@@ -33,10 +37,10 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
-- [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [X ]  Create a forked copy of this project.
+- [ X]  Add TL as collaborator on GitHub.
+- [X ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [ X]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
 - [ ]  Implement the project on this branch, committing changes regularly.
 - [ ]  Push commits: `git push origin <firstName-lastName>`.
 - [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
@@ -65,18 +69,18 @@ Construct a Single Page Application with React.
 **Your finished project must include all of the following requirements:**
 
 _Display Data from a Server API_
-- [ ]  Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://rickandmortyapi.com/api/character/`* and render them to the screen.
-- [ ]  You must display at least one element for each character.
+- [ X]  Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://rickandmortyapi.com/api/character/`* and render them to the screen.
+- [X ]  You must display at least one element for each character.
 
 _Add a Router to this application using [React Router](https://reacttraining.com/react-router/web/guides/quick-start)._
 
-- [ ]  Hook up the Welcome page(Home page) and a Characters page with React Router.
-- [ ]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: [s](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
+- [X]  Hook up the Welcome page(Home page) and a Characters page with React Router.
+- [X]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: [s](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
 
 _Add 'Search by Name' feature._
 
-- [ ]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
-- [ ]  Create a search form that will filter through the data displayed in the character list.
+- [ X post sprint did not use]  Add the `<SearchForm />` component (see `./components/SearchForm.js`).
+- [ X ]  Create a search form that will filter through the data displayed in the character list.
 
 ### **Required best practices:**
 
