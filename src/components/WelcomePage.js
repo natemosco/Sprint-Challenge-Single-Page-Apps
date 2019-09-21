@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+import Header from "./Header";
+
+
 
 const StyledWelcomePage = styled.main`
   width:97%;
@@ -50,23 +53,26 @@ const StyledWelcomePage = styled.main`
 
 export default function WelcomePage() {
   return (
-    <StyledWelcomePage>
-      <section className="welcome-page">
-        <header>
-          <h1>Welcome to the ultimate fan site!</h1>
-        </header>
-        <div className="image">
-          <h4>Yeah...that happened</h4>
-          {/* <img
-            className="main-img"
-            src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
-            alt="rick"
-          /> */}
-        </div>
-          <Link to="/characterlist">
-            <button>Enter Here</button>
-          </Link>
-      </section>
-    </StyledWelcomePage>
+    <>
+      <Header/>
+      <StyledWelcomePage>
+        <section className="welcome-page">
+          <header>
+            <h1>Welcome to the ultimate fan site!</h1>
+          </header>
+          <div className="image">
+            <h4>Yeah...that happened</h4>
+            {/* <img
+              className="main-img"
+              src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+              alt="rick"
+            /> */}
+          </div>
+            <Link to="/characterlist">
+              <button>Enter Here</button>
+            </Link>
+        </section>
+      </StyledWelcomePage>
+    </>
   );
 }
